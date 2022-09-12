@@ -4,5 +4,5 @@ class Recipe < ApplicationRecord
     validates :instructions, length: {minimum: 50}
 
     belongs_to :user
-    
+
 end
